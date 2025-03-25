@@ -1,7 +1,5 @@
 public class PasswordChack {
-
     private State currentState = State.S0;
-
     public void process(String password) {
         for (int i = 0; i < password.length(); i++) {
             char c = password.charAt(i);
